@@ -4,6 +4,8 @@ files:
   - source: /
     destination: /usr/share/nginx/html
 hooks:
+BeforeInstall:
+  - location: scripts/BeforeInstallHook.sh
    AfterInstall:
     - location: scripts/AfterInstallHook.sh
       timeout: 300
