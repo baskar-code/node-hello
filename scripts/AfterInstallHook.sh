@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
-cd /usr/share/nginx/html
+cd /root/node-hello
 npm install
 npm run build
