@@ -6,7 +6,7 @@ name: CI/CD Pipeline
 on: [push]
   
 jobs:
-continuous-integration:
+
   build:
     runs-on: ubuntu-latest
 
