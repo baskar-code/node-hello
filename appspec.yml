@@ -2,10 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /root/node-hello
-hooks:
-BeforeInstall:
-  - location: scripts/BeforeInstallHook.sh
-   AfterInstall:
-    - location: scripts/AfterInstallHook.sh
-      timeout: 300
+    destination: /var/www/html/
