@@ -3,12 +3,3 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
-hooks:
-ApplicationStop:
-   - location: scripts/appstop.sh
-     timeout: 10
-     runas: root
-ApplicationStart:
-   - location: scripts/appstart.sh
-     timeout: 10
-     runas: root
